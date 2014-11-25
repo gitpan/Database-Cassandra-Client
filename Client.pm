@@ -5,7 +5,7 @@ use strict;
 use vars qw($AUTOLOAD $VERSION $ABSTRACT @ISA @EXPORT);
 
 BEGIN {
-	$VERSION = 0.51;
+	$VERSION = 0.52;
 	$ABSTRACT = "Cassandra client (XS for libcassandra)";
 	
 	@ISA = qw(Exporter DynaLoader);
